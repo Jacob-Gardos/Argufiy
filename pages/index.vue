@@ -3,7 +3,12 @@
     <b-col md="2" class="px-0 px-xl-3">
       <categoryCol />
     </b-col>
-    <b-col class="bg-light" cols="12" md="8" :class="this.$breakpoints.sMd ? 'p-0' : ''">
+    <b-col
+      class="bg-light"
+      cols="12"
+      md="8"
+      :class="this.$breakpoints.sMd ? 'p-0' : ''"
+    >
       <topicTrendCard />
       <hr />
       <topicCard
@@ -107,6 +112,16 @@ export default {
           prop1Percent: 58,
           prop2: 'NoDeathPenalty',
           prop2Color: 'color7',
+          prop2Percent: 52,
+          previewText:
+            'An do on frankness so cordially immediate recommend contained. Imprudence insensible be literature unsatiable do. Of or imprudence solicitude affronting in mr possession. Compass journey he request on suppose limited of or. She margaret law thoughts proposal formerly. Speaking ladyship yet scarcely and mistaken end exertion dwellin'
+        },
+        {
+          prop1: 'Stadia',
+          prop1Color: 'color6',
+          prop1Percent: 58,
+          prop2: 'NvidiaShield',
+          prop2Color: 'color8',
           prop2Percent: 52,
           previewText:
             'An do on frankness so cordially immediate recommend contained. Imprudence insensible be literature unsatiable do. Of or imprudence solicitude affronting in mr possession. Compass journey he request on suppose limited of or. She margaret law thoughts proposal formerly. Speaking ladyship yet scarcely and mistaken end exertion dwellin'
