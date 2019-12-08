@@ -1,0 +1,18 @@
+$theme-colors: (
+  primary: #01579b,
+  secondary: #e53935,
+  color1: #ff9157,
+  color2: #ecb51e,
+  color3: #3685df,
+  color4: #2f3436,
+  color5: #1eb809,
+  color6: #c207c2,
+  color7: #b80975,
+  color8: #b81d09
+);
+
+$primary: #01579b;
+$secondary: #e53935;
+$enable-responsive-font-sizes: true;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
