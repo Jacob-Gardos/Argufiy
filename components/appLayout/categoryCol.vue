@@ -1,5 +1,5 @@
 <template>
-  <b-list-group class="flex-row flex-md-column categoryCol">
+  <b-list-group class="flex-row flex-md-column categoryCol shadow-sm">
     <b-list-group-item href="#" v-for="(topic, index) in topics" :key="index">
       {{
       topic.name
