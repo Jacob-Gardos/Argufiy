@@ -4,6 +4,7 @@
     footer-border-variant="0"
     footer-class="pt-0"
     style="cursor: pointer;"
+    @click="openDiscussion"
   >
     <!-- Card Title -->
     <b-card-title class="d-flex">
@@ -74,6 +75,12 @@ export default {
           name: this.prop2
         }
       }
+    }
+  },
+
+  methods: {
+    openDiscussion() {
+      this.$router.push({ name: 'discussion-id', params: { id: 5098546 } })
     }
   },
 

@@ -3,12 +3,7 @@
     <b-col md="2" class="px-0 px-xl-3">
       <categoryCol />
     </b-col>
-    <b-col
-      class="bg-light"
-      cols="12"
-      md="8"
-      :class="this.$breakpoints.sMd ? 'p-0' : ''"
-    >
+    <b-col class="bg-light" cols="12" md="8" :class="this.$breakpoints.sMd ? 'p-0' : ''">
       <topicTrendCard />
       <hr />
       <topicCard
